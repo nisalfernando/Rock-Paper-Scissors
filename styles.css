@@ -24,4 +24,5 @@ header > h1{
 .score-board {
   margin: 20px auto;
   border: 3px solid auto;
+  border-radius: 4px;
 }
