@@ -28,3 +28,7 @@ header > h1{
   text-align: center;
   width: 200px;
 }
+
+.badge {
+  background: #E2584D;
+}
