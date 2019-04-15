@@ -35,4 +35,5 @@ header > h1{
 .badge {
   background: #E2584D;
   color: white;
+  font-size: 14px;
 }
