@@ -44,6 +44,7 @@ header > h1{
 
 #user-label {
   position: absolute;
+  top: 30px;
 }
 
 #computer-label {
