@@ -62,3 +62,7 @@ header > h1{
 .result > p {
   text-align: center;
 }
+
+.img {
+  width: 70px;
+}
