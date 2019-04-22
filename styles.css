@@ -76,4 +76,5 @@ header > h1{
 
 .choice {
   border: 4px solid white;
+  border-radius: 50%;
 }
