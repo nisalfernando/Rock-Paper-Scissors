@@ -86,3 +86,7 @@ header > h1{
   cursor: pointer;
   background: #24272E;
 }
+
+#action-message {
+  text-align: center;
+}
