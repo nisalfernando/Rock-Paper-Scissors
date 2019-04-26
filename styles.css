@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Asap');
+@import url("https://fonts.googleapis.com/css?family=Asap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #292C34;
+  background: #292c34;
 }
 
 header {
@@ -15,8 +15,8 @@ header {
   padding: 20px;
 }
 
-header > h1{
-  color: #24272E;
+header > h1 {
+  color: #24272e;
   text-align: center;
   font-family: Asap, sans-serif;
 }
@@ -35,7 +35,7 @@ header > h1{
 }
 
 .badge {
-  background: #E2584D;
+  background: #e2584d;
   color: white;
   font-size: 14px;
   padding: 2px 10px;
@@ -85,15 +85,16 @@ header > h1{
 
 .choice:hover {
   cursor: pointer;
-  background: #24272E;
+  background: #24272e;
 }
 
 #action-message {
   text-align: center;
   color: white;
   font-family: Asap, sans-serif;
+  font-weight: bold;
 }
 
 .green-glow {
-  border: 4px solid #4DCC7D;
+  border: 4px solid #4dcc7d;
 }
