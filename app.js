@@ -5,3 +5,4 @@ const computerScore = document.getElementById("computer-score");
 const scoreBoard = document.querySelector(".score-board");
 const result = document.querySelector(".result > p");
 const rock = document.getElementById("r");
+const paper = document.getElementById("p");
