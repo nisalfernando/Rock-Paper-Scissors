@@ -7,3 +7,7 @@ const result = document.querySelector(".result > p");
 const rock = document.getElementById("r");
 const paper = document.getElementById("p");
 const scissors = document.getElementById("s");
+
+function getComputerChoice() {
+  const choice = ['r', 'p', 's'],
+}
