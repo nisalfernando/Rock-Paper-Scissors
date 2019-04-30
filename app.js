@@ -6,3 +6,4 @@ const scoreBoard = document.querySelector(".score-board");
 const result = document.querySelector(".result > p");
 const rock = document.getElementById("r");
 const paper = document.getElementById("p");
+const scissors = document.getElementById("s");
