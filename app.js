@@ -11,4 +11,5 @@ const scissors = document.getElementById("s");
 function getComputerChoice() {
   const choice = ["r", "p", "s"];
   const randomNumber = Math.floor(Math.random() * 3);
+  return choices[randomNumber];
 }
