@@ -17,4 +17,5 @@ function getComputerChoice() {
 function convertToWord(letter) {
   if (letter === "r") return "rock";
   if (letter === "p") return "paper";
+  return "Scissors";
 }
