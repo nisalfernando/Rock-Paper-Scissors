@@ -1,7 +1,7 @@
 let userScore = 0;
 let computerScore = 0;
-const userScore = document.getElementById("user-score");
-const computerScore = document.getElementById("computer-score");
+const userScoreTwo = document.getElementById("user-score");
+const computerScoreTwo = document.getElementById("computer-score");
 const scoreBoard = document.querySelector(".score-board");
 const result = document.querySelector(".result > p");
 const rock = document.getElementById("r");
@@ -18,4 +18,8 @@ function convertToWord(letter) {
   if (letter === "r") return "rock";
   if (letter === "p") return "paper";
   return "Scissors";
+}
+
+function win(userChoice, computerChoice) {
+  userScoree++;
 }
