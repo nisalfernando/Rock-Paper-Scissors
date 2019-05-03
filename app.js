@@ -23,4 +23,5 @@ function convertToWord(letter) {
 function win(userChoice, computerChoice) {
   userScoree++;
   userScoreTwo.innerHTML = userScore;
+  computerScoreTwo.innerHTML = computerScore;
 }
