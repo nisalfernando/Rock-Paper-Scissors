@@ -24,4 +24,6 @@ function win(userChoice, computerChoice) {
   userScoree++;
   userScoreTwo.innerHTML = userScore;
   computerScoreTwo.innerHTML = computerScore;
+  const smallUserWord = "user".fontsize(3).sub();
+  const smallCompWord = "comp".fontsize(3).sub();
 }
