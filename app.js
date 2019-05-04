@@ -31,4 +31,5 @@ function win(userChoice, computerChoice) {
   )}${smallUserWord} beats ${convertToWord(
     computerChoice
   )}${smallCompWord}. You win!`;
+  const winClass = document.getElementById(userChoice);
 }
