@@ -32,4 +32,5 @@ function win(userChoice, computerChoice) {
     computerChoice
   )}${smallCompWord}. You win!`;
   const winClass = document.getElementById(userChoice);
+  winClass.classList.add("green-glow");
 }
