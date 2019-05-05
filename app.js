@@ -35,3 +35,7 @@ function win(userChoice, computerChoice) {
   winClass.classList.add("green-glow");
   setTimeout(() => winClass.classList.remove("green-glow"), 500);
 }
+
+function lose(userChoice, computerChoice) {
+  computerScore++;
+}
