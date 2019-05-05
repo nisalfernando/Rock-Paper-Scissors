@@ -33,4 +33,5 @@ function win(userChoice, computerChoice) {
   )}${smallCompWord}. You win!`;
   const winClass = document.getElementById(userChoice);
   winClass.classList.add("green-glow");
+  setTimeout(() => winClass.classList.remove("green-glow"), 500);
 }
