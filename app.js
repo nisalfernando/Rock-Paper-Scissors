@@ -39,4 +39,5 @@ function win(userChoice, computerChoice) {
 function lose(userChoice, computerChoice) {
   computerScore++;
   userScoreTwo.innerHTML = userScore;
+  computerScoreTwo.innerHTML = computerScore;
 }
