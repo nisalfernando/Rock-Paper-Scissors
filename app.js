@@ -40,4 +40,5 @@ function lose(userChoice, computerChoice) {
   computerScore++;
   userScoreTwo.innerHTML = userScore;
   computerScoreTwo.innerHTML = computerScore;
+  const smallUserWord = "user".fontsize(3).sub();
 }
