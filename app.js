@@ -42,4 +42,9 @@ function lose(userChoice, computerChoice) {
   computerScoreTwo.innerHTML = computerScore;
   const smallUserWord = "user".fontsize(3).sub();
   const smallCompWord = "comp".fontsize(3).sub();
+  result.innerHTML = `${convertToWord(
+    userChoice
+  )}${smallUserWord} loses to ${convertToWord(
+    computerChoice
+  )}${smallCompWord}. You lost.`;
 }
