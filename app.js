@@ -47,4 +47,5 @@ function lose(userChoice, computerChoice) {
   )}${smallUserWord} loses to ${convertToWord(
     computerChoice
   )}${smallCompWord}. You lost.`;
+  const winClass = document.querySelector("#userChoice");
 }
