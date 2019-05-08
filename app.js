@@ -49,4 +49,5 @@ function lose(userChoice, computerChoice) {
   )}${smallCompWord}. You lost.`;
   const winClass = document.querySelector("#userChoice");
   winClass.classList.add("red-glow");
+  setTimeout(() => winClass.classList.remove("red-glow"), 500);
 }
