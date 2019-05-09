@@ -51,3 +51,7 @@ function lose(userChoice, computerChoice) {
   winClass.classList.add("red-glow");
   setTimeout(() => winClass.classList.remove("red-glow"), 500);
 }
+
+function draw(userChoice, computerChoice) {
+  const smallUserWord = "user".fontsize(3).sub();
+}
