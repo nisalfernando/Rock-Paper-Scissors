@@ -55,4 +55,9 @@ function lose(userChoice, computerChoice) {
 function draw(userChoice, computerChoice) {
   const smallUserWord = "user".fontsize(3).sub();
   const smallCompWord = "comp".fontsize(3).sub();
+  result.innerHTML = `${convertToWord(
+    userChoice
+  )}${smallUserWord} equals ${convertToWord(
+    computerChoice
+  )}${smallCompWord}. It's a draw.`;
 }
