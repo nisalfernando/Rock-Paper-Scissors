@@ -60,4 +60,5 @@ function draw(userChoice, computerChoice) {
   )}${smallUserWord} equals ${convertToWord(
     computerChoice
   )}${smallCompWord}. It's a draw.`;
+  const winClass = document.querySelector("#userChoice");
 }
