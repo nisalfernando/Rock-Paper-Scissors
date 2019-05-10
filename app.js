@@ -62,4 +62,5 @@ function draw(userChoice, computerChoice) {
   )}${smallCompWord}. It's a draw.`;
   const winClass = document.querySelector("#userChoice");
   winClass.classList.add("gray-glow");
+  setTimeout(() => winClass.classList.remove("gray-glow"), 500);
 }
