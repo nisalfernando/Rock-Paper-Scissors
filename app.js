@@ -64,3 +64,7 @@ function draw(userChoice, computerChoice) {
   winClass.classList.add("gray-glow");
   setTimeout(() => winClass.classList.remove("gray-glow"), 500);
 }
+
+function game(userChoice) {
+  const computerChoice = getComputerChoice();
+}
