@@ -67,4 +67,7 @@ function draw(userChoice, computerChoice) {
 
 function game(userChoice) {
   const computerChoice = getComputerChoice();
+  switch (userChoice + computerChoice) {
+    case "rs":
+  }
 }
