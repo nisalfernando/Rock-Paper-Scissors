@@ -73,5 +73,6 @@ function game(userChoice) {
     case "sp":
       win(userChoice, computerChoice);
       break;
+    case "rp":
   }
 }
