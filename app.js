@@ -70,5 +70,6 @@ function game(userChoice) {
   switch (userChoice + computerChoice) {
     case "rs":
     case "pr":
+    case "sp":
   }
 }
