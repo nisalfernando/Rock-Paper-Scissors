@@ -80,5 +80,6 @@ function game(userChoice) {
       break;
     case "rr":
     case "pp":
+    case "ss":
   }
 }
