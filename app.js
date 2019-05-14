@@ -79,5 +79,6 @@ function game(userChoice) {
       lose(userChoice, computerChoice);
       break;
     case "rr":
+    case "pp":
   }
 }
