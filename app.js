@@ -78,5 +78,6 @@ function game(userChoice) {
     case "sr":
       lose(userChoice, computerChoice);
       break;
+    case "rr":
   }
 }
