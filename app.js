@@ -90,4 +90,6 @@ function main() {
   rock.addEventListener("click", () => game("r"));
 
   paper.addEventListener("click", () => game("p"));
+
+  scissors.addEventListener("click", () => game("s"));
 }
