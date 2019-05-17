@@ -93,3 +93,5 @@ function main() {
 
   scissors.addEventListener("click", () => game("s"));
 }
+
+main();
