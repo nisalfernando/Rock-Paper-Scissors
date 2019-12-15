@@ -1,9 +1,9 @@
-# Description
+# Project's Description
  -> This is a game. 
  -> Visual game of Rock-Paper_Scissors.
  -> Good for practicing JavaScript.
 
-# Goals
+# My Goals
  -> Improve my JavaScript skill.
  -> Study how a game works.
  
