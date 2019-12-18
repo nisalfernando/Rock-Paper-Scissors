@@ -3,10 +3,10 @@
  -> Visual game of Rock-Paper_Scissors.
  -> Good for practicing JavaScript.
 
-# My Goals
+# The Expected Goals From This Project
  -> Improve my JavaScript skill.
  -> Study how a game works.
  
-# Final thoughts
+# Final Thoughts About This Project
  -> Recommend any one who likes to code.
  -> Also good for any one who likes games.
